@@ -22,7 +22,7 @@ public class NoteDto implements Serializable {
             this.id = note.getId();
         }
         if (note.getBody() != null) {
-            this.body =note.getBody()
+            this.body =note.getBody();
         }
     }
 }
